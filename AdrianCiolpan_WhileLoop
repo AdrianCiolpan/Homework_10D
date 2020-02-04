@@ -1,0 +1,66 @@
+ex.1
+public class ex1 {
+
+	public static void main(String[] args) {
+int i = 100;
+double s = 0;
+while(i>=2){
+	s=s+i;
+	s=Math.sqrt(s);
+	i-=2;
+}
+System.out.println(s);
+	}
+
+}
+
+ex.2
+import java.util.Scanner;
+public class ex2 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("introduceti un numar");
+		int n=sc.nextInt();
+		int i=100;
+		int x=i;
+		int u =0;
+		int z=0;
+		int s=0;
+		while(x<=999){
+			i=x;
+			 int sum=0;
+			u=i%10;
+			i=i/10;
+			z=i%10;
+			i=i/10;
+			s=i%10;
+			sum=s+z+u;
+			i=x;
+			x++;
+			if (sum==n)
+				System.out.println(i);
+		}
+	}
+}
+
+ex.3
+
+import java.util.Scanner;
+public class ex3 {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("introduceti un numar");
+	int n=sc.nextInt();
+while (n>=10){
+	int rest=0;
+	int sum=0;
+	while(n!=0){
+		rest=n%10;
+		sum+=rest;
+		n=n/10;
+	}
+	System.out.println("suma este: "+sum);
+	n=sum;
+}
+	}
+}
