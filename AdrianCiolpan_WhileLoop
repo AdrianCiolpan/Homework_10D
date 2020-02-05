@@ -64,3 +64,23 @@ while (n>=10){
 }
 	}
 }
+
+
+ex.4
+package proiectttt;
+
+public class ex4 {
+
+	public static void main(String[] args) {
+int i=1;
+int n=0;
+		while(i<=100) {
+			n=i;
+	n=i+(n/2)+(n/4)+1;
+	if (n==100) System.out.println(i);
+	i++;
+}
+	}
+
+}
+
