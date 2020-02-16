@@ -1,0 +1,64 @@
+Ex1
+
+import java.util. Scanner;
+public class gggghhhh {
+public static void main(String[] args) {
+Scanner sc=new Scanner (System.in);
+int n=sc.nextInt();
+double sum=0;
+int i=1;
+while(true) {
+sum+=Math.sqrt(i);
+i++;
+if(i>n)
+break;
+}
+System.out.println(sum);
+
+}
+}
+
+
+
+Ex2
+
+import java.util. Scanner;
+public class ex2 {
+public static void main(String[] args) {
+Scanner sc=new Scanner (System.in);
+int n=sc.nextInt();
+int prod=1;
+int i=1;
+while(true) {
+prod=prod*i;
+if(prod>=n) break;
+i++;
+}
+if(prod==n) System.out.println(i);
+else System.out.println("numarul introdus nu are nici un factorial");
+}
+
+}
+
+
+
+Ex3
+
+import java.util. Scanner;
+public class ex3 {
+public static void main(String[] args) {
+Scanner sc=new Scanner (System.in);
+int ac=sc.nextInt();
+int s=1;
+int v=0;
+int distanta=0;
+while(true) {
+v=acs;
+distanta=distanta +(vs);
+System.out.println("la secunda "+s+" viteza este: "+v+" si coordonata este: "+distanta+" metri");
+s++;
+if(s>10) break;
+
+}
+}
+}
