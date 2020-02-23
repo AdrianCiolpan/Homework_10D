@@ -1,0 +1,112 @@
+package Programs;
+import java.util.Scanner;
+public class while_ex1 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("exercitiul 1.1: Introduceti numere intregi");
+		System.out.println("acest program se va opri la introducerea: 0");
+int n;
+while(true) {
+	n=sc.nextInt();
+	if (n==0)
+		break;
+}
+System.out.println("sfarsit");
+System.out.println("Exercitiul 1.2: Introduceti numere intregi");
+System.out.println("acest program se va opri la introducerea unui numar mai mare ca 100 si mai mic ca 500");
+int b=0;
+while(b<100||b>=500) {
+	b=sc.nextInt();
+}
+System.out.println("sfarsit");
+System.out.println("Exercitiul 1.3: Introduceti numere intregi");
+System.out.println("acest program se va opri la introducerea 3 numere impare sau 5 numere pozitive");
+int v=0;
+int v2=0;
+int c=0;
+while(c<100) {
+	v=sc.nextInt();
+	int v1=v%2;
+	if(v1==1)
+		c+=1;
+	if(v>0)
+		v2+=1;
+	if(v2>=5||c>=3)
+		break;
+}
+System.out.println("sfrasit");
+System.out.println("Exercitiul 1.4: Introduceti numere intregi");
+System.out.println("acest program se va opri la introducerea 2 numere pare mai mari ca 100");
+int x=0;
+int e=0;
+while(x>=0) {
+	x=sc.nextInt();
+	if(x%2==0 && x>100)
+		e+=1;
+	if(e==2)
+		break;
+}
+System.out.println("sfarsit");
+	}
+
+}
+
+
+package Programs;
+import java.util.Scanner;
+public class while_ex2 {
+	public static void main(String[] args) {
+Scanner sc=new  Scanner(System.in);
+System.out.println("Exercitiul 2.1: se calculeaza produsul numerelor impare, mai mici decat un numar introdus de la tastatura ");
+System.out.println();
+int n=sc.nextInt();
+int sum=1;
+int i=n;
+while(i>0) {
+	i--;
+	int pr=i%2;
+	if (pr==0) continue;
+	sum*=i;
+}
+System.out.println("Produsul numerelor impare mai mici decat numarul introdus este: "+sum);
+
+
+	}
+
+}
+   
+   
+package Programs;
+import java.util.Scanner;
+public class while_ex3 {
+	public static void main(String[] args) {
+		System.out.println("introduceti un numar real pozitiv: ");
+Scanner sc=new  Scanner(System.in);
+int n=sc.nextInt();
+System.out.println("sirul fibonacci este: ");
+int x=0;
+int y=1;
+int z=0;
+int i=1;
+while(i<=n) {
+	x=y;
+	y=z;
+	z=x+y;
+	i++;
+	System.out.println(z);
+}
+}
+}
+
+
+package Programs;
+public class while_ex4 {
+public static void main(String[] args) {
+	double pret=46.20;
+	int i=50;
+	while(i<=1000) {
+		System.out.println(i+" gr costa "+((i*pret)/1000)+" lei");
+		i+=50;
+	}
+}
+}
