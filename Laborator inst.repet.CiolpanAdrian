@@ -1,0 +1,81 @@
+import java.util.Scanner;
+public class ex1 {
+	public static void main(String[] args) {
+  Scanner sc=new Scanner(System.in);
+  int n=sc.nextInt();
+  double sum=0;
+  for(double i=1; i<=n; i++) {
+	  sum= sum+( i/((i+1)*(i+2)));
+  }
+		System.out.format("%.5f%n",sum);
+		
+	}
+
+}
+
+public class ex22 {
+	public static void main(String[] args) {
+int i=1;
+int q=1, w=2,e=3,r=4,t=5,y=6,u=7;
+while(q<=7) {
+	System.out.println(q+""+w+e+r+t+y+u);
+	q++;
+	w++;
+	e++;
+	r++;
+	t++;
+	y++;
+	u++;
+	if(w==8)
+		w=1;
+	if(e==8)
+		e=1;
+	if(r==8)
+		r=1;
+	if(t==8)
+		t=1;
+	if(y==8)
+		y=1;
+	if(u==8)
+		u=1;
+}		
+	}
+}
+
+
+public class ex3 {
+
+	public static void main(String[] args) {
+double n=100;
+double i=98;
+while(i>=-1) {
+	n=1/n+i;
+	i-=2;
+}
+System.out.format("%.5f%n",n);
+	}
+}
+
+import java.util.Scanner;
+public class ex4 {
+	public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+int k=sc.nextInt();
+int x=0;
+int y=1;
+int z=0;
+int i=1;
+int n=20;
+int q=0;
+do {
+	x=y;
+	y=z;
+	z=x+y;
+	i++;
+	q++;
+	if(q==k)
+		System.out.println(z);}
+	while(i<=n);
+
+	}
+}
