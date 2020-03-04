@@ -1,0 +1,69 @@
+package ex;
+import java.util.Scanner;
+public class exx1 {
+
+	public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+double sum=0;
+int i=1;
+while(i<=n) {
+	sum=sum+Math.sqrt(i);
+	i++;
+}
+System.out.println(sum);
+		
+	}
+
+}
+
+import java.util.Scanner;
+
+public class exx2 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		double sum=0;
+		double c=0;
+		int i=1;
+		while(i<=n) {
+			c+=i;
+			sum=sum+i/c;
+			i++;
+		}
+		System.out.println(sum);
+	}
+
+}
+
+import java.util.Scanner;
+
+public class exx3 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		double prod =1;
+		double i=1;
+		double y=2;
+		int q=0;
+		while(true) {
+			prod=prod*(y/i);
+			q++;
+			if(q==n)
+				break;
+			
+			i+=2;
+			prod=prod*(y/i);
+			q++;
+			if(q==n)
+				break;
+				
+		
+			y+=2;
+		}
+		System.out.println(prod*2);
+	}
+
+}
