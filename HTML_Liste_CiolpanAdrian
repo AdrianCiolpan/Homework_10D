@@ -1,0 +1,150 @@
+CUPRINSUL UNEI CARTI
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuprins</title>
+    <style>
+        body{
+           
+        background-color: #f2eecb;
+        margin: auto;
+        margin-left: 35%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        ul{
+            list-style: none;
+        }
+        h1{
+            margin-left: 130px;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cuprins</h1>
+    <ol>
+        <li>La început...  .........................................................................8
+            <ul>
+                <li>Capitolul 1  ...........................................................13</li>
+            </ul>
+        </li>
+        <li>"Vreau."  ...............................................................................30
+            <ul>
+                <li>Capitolul 2  ...........................................................35</li>
+            </ul>
+        </li>
+        <li>"Sunt programat să câștig."  ....................................52
+            <ul>
+                <li>Capitolul 3  ...........................................................57</li>
+            </ul>
+        </li>
+        <li>"Dețin controlul."  ..........................................................74
+            <ul>
+                <li>Capitolul 4  ...........................................................79</li>
+            </ul>
+        </li>
+        <li>"Accept incertitudinea."  ............................................92
+            <ul>
+                <li>Capitolul 5  ...........................................................97</li>
+            </ul>
+        </li>
+        <li>"Eu nu sunt gândurile mele,<br> sunt acțiunile mele."  ..................................................112
+            <ul>
+                <li>Capitolul 6  ..........................................................117</li>
+            </ul>
+        </li>
+        <li>"Sunt perseverent."  ....................................................132
+            <ul>
+                <li>Capitolul 7  ..........................................................137</li>
+            </ul>
+        </li>
+        <li>"Nu aștept nimic și accept totul."  .......................150
+            <ul>
+                <li>Capitolul 8  ..........................................................155</li>
+            </ul>
+        </li>
+        <li>Și de-aici, încotro?  ......................................................172
+            <ul>
+                <li>Capitolul 9  ..........................................................177</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
+
+
+
+Lectiii
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obiecte de studiu Clasa a X</title>
+    <style>
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: aquamarine;
+            margin: auto;
+            margin:0 25%;
+        }
+        h1{
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+        dt{
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        dd{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Obiecte de studiu pentru clasa a X-a</h1>
+    <dl>
+        <dt>Biologia
+            <dd>Știință care studiază manifestările vieții din punct de vedere anatomic, fiziologic, zoologic etc.</dd>
+        </dt>
+        <dt>Chimia
+            <dd>Știință care studiază compoziția, structura și proprietățile substanțelor, transformărilor lor prin regruparea atomilor componenți, precum și combinațiile noi ale substanțelor rezultate în urma acestor transformări.</dd>
+        </dt>
+        <dt>Dezvoltare Personală
+            <dd>Obiect de studiu în care elevii se descoperă pe sine.</dd>
+        </dt>
+        <dt>Educația Fizică
+            <dd>Educaţia fizică, este considerată ca fiind un proces instructiv educativ al cărui
+                obiectiv îl constituie creşterea potenţialul fizic şi psihic, atât în plan personal, cât şi social.</dd>
+        </dt>
+        <dt>Educația pentru Societate
+            <dd>Obiect de studiu despre societate și cum să ne comportăm.</dd>
+        </dt>
+        <dt>Fizică
+            <dd>Știință fundamentală din ciclul științelor naturii, care studiază proprietățile și structura materiei, formele mișcării ei și legile generale ale fenomenelor naturii anorganice, precum și transfomările reciproce ale acestor forme de mișcare.</dd>
+        </dt>
+        <dt>Geografie
+            <dd>Știință care studiază și descrie învelișul terestru, cu toate elementele sale, din punct de vedere fizic, economic, etnografic etc.</dd>
+        </dt>
+        <dt>Informatică
+            <dd>Știință aplicativă care se ocupă cu prelucrarea rațională și automată a informațiilor</dd>
+        </dt>
+        <dt>Istoria Romănilor și Universală
+            <dd>Știință care studiază dezvoltarea treptată a societății omenești.</dd>
+        </dt>
+        <dt>Limba Engleză
+            <dd>Obiect de studiu unde se învață limba engleză.</dd>
+        </dt>
+        <dt>Limba și Literatura Română
+            <dd>Obiect de studiu unde se învață limba română.</dd>
+        </dt>
+        <dt>Matematica
+            <dd>Știință care studiază mărimile, relațiile cantitative și formele spațiale prin raționament deductiv.</dd>
+        </dt>
+    </dl> 
+</body>
+</html>
